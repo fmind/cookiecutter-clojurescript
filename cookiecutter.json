@@ -1,0 +1,11 @@
+{
+    "name": "project",
+    "user": "anonymous",
+    "email": "anon@local",
+    "author": "anonymous",
+    "clojure": "1.10.1",
+    "clojurescript": "1.10.520",
+    "license": "MIT",
+    "control": "github.com",
+    "repository": "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}"
+}
