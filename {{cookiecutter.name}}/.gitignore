@@ -1,3 +1,4 @@
 /target/
 /.lein-*
 /.nrepl-*
+.cljs_node_repl/

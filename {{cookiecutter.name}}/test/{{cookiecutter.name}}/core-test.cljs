@@ -4,5 +4,3 @@
 
 (t/deftest can-execute-main
   (t/is (nil? (sut/-main))))
-
-(t/run-tests)

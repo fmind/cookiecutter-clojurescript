@@ -21,11 +21,11 @@
   :cljsbuild {:builds [{:id "main"
                         :source-paths ["src"]
                         :compiler {:main {{cookiecutter.name}}.core
-                                  :target :nodejs
-                                  :output-to "target/{{cookiecutter.name}}.js"}}
+                                   :target :nodejs
+                                   :output-to "target/{{cookiecutter.name}}.js"}}
                       {:id "test"
-                        :source-paths ["src" "test"]
-                        :compiler {:main {{cookiecutter.name}}.core-test
+                       :source-paths ["src" "test"]
+                       :compiler {:main {{cookiecutter.name}}.tests
                                   :target :nodejs
                                   :output-to "target/tests.js"}}]
               :test-commands {"all" ["node" "target/tests.js"]}}
